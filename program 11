@@ -1,0 +1,12 @@
+// Program #11: Gallons to Liters Converter
+
+#include<iostream>
+using namespace std;
+
+int main (){
+    float Gallons,Liters;
+cout<<"Enter the number of Gallons: ";
+cin>>Gallons;
+Liters = Gallons * 3.7854;
+cout<<"The "<<Gallons<<" is equivalent to "<<Liters;
+} 
